@@ -93,7 +93,7 @@ body {
 }
 
 #servicos p {
-  color: var(--dark);
+  color: var(--secondary);
 }
 
 #servicos a.destaque .img-container {
@@ -105,6 +105,45 @@ body {
 
 #servicos a.destaque .img-container img {
   max-height: 160px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#box h5 {
+  margin-bottom: 10px;
+}
+
+#box p {
+  font-size: 15px;
+  line-height: 28px;
+  height: 90px;
+  overflow: hidden;
+}
+
+#box a {
+  display: inline-block;
+  color: var(--light);
+  background-color: var(--secondary);
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+#box a:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#box.showContent p {
+  height: auto;
+}
+
+#box.showContent a.readmore-btn {
+  background-color: var(--dark);
 }
 
 #clientes a.link-cliente {

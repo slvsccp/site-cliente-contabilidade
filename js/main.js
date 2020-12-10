@@ -60,3 +60,11 @@ jQuery(document).ready(function ($) {
     },
   });
 });
+
+$(".readmore-btn").on('click', function(){
+  $(this).parent().toggleClass("showContent");
+
+  //Abreviação da declaração if else
+  var replaceText = $(this).parent().hasClass("showContent") ? "Ocultar" : "Leia mais..";
+  $(this).text(replaceText);
+});
