@@ -407,7 +407,7 @@ hr.socket {
 #home{margin: 20px auto;}
 #home .colunas{width: 49%; padding: 10px 0;}
 #home h1{color: var(--secondary); text-transform: uppercase; font-weight: 400; margin: 0; width: 100%;}
-#home h1 span{color: var(--dark); font-size: 60%; display: block;}
+#home h1 span{color: rgb(77,77,77); font-size: 60%; display: block;}
 #home h2 {color:rgb(255,255,255); padding: 20px 10px; margin: 0; font-weight: 400; width: 100%; align-self: flex-start;}
 #home h2 span{font-size: 50%; display: block;}
 #home h3{color:rgb(77,77,77); font-weight: 400;}
