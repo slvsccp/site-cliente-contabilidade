@@ -4,9 +4,16 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   background: url(../assets/footer-bg.png) no-repeat center bottom;
   padding-bottom: 400px;
+}
+
+.imagem-logo {
+  object-fit: cover;
+  object-position: 0 80%;
+  height: 80px;
 }
 
 .whatsapp-link {
